@@ -1,0 +1,39 @@
+{
+  "name": "key-replace",
+  "version": "0.0.0",
+  "description": "Replace object keys with String.prototype.replace",
+  "license": "MIT",
+  "repository": "gillstrom/key-replace",
+  "author": {
+    "name": "Andreas Gillström",
+    "email": "andreasgillstrom@gmail.com",
+    "url": "github.com/gillstrom"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "key",
+    "keys",
+    "obj",
+    "object",
+    "replace",
+    "string",
+    "substr"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
