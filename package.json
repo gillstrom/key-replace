@@ -1,6 +1,6 @@
 {
   "name": "key-replace",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Replace object keys with String.prototype.replace",
   "license": "MIT",
   "repository": "gillstrom/key-replace",

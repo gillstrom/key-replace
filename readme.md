@@ -46,14 +46,14 @@ The object which keys will be replaced.
 *Required*  
 Type: `string` or `regexp`
 
-Search for mathching substring that will be replaced.
+Search for matching substring that will be replaced.
 
 #### replace
 
 *Required*  
 Type: `string` or `function`
 
-Replacing the mathing substring.
+Replacing the matching substring.
 
 
 ## License
