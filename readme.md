@@ -21,9 +21,7 @@ const obj = {
 keyReplace(obj, 'fo', 'y');
 //=> {yo: 'bar'}
 
-keyReplace(obj, 'fo', str => {
-	return str.toUpperCase();
-});
+keyReplace(obj, 'fo', str => str.toUpperCase());
 //=> {FOo: bar}
 ```
 
@@ -54,6 +52,11 @@ Search for matching substring that will be replaced.
 Type: `string` or `function`
 
 Replacing the matching substring.
+
+
+## Related
+
+* [array-replace](https://github.com/gillstrom/array-replace) - Replace array values with `String.prototype.replace`
 
 
 ## License
