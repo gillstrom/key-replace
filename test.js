@@ -17,7 +17,6 @@ test('string', t => {
 	};
 
 	t.same(fn(obj, 'foo', ''), expected);
-	t.end();
 });
 
 test('regexp', t => {
@@ -36,7 +35,6 @@ test('regexp', t => {
 	};
 
 	t.same(fn(obj, /foo/, ''), expected);
-	t.end();
 });
 
 test('function', t => {
@@ -58,5 +56,4 @@ test('function', t => {
 		return str.toUpperCase();
 	}), expected);
 
-	t.end();
 });
