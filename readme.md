@@ -22,7 +22,7 @@ keyReplace(obj, 'fo', 'y');
 //=> {yo: 'bar'}
 
 keyReplace(obj, 'fo', str => str.toUpperCase());
-//=> {FOo: bar}
+//=> {FOo: 'bar'}
 ```
 
 
@@ -57,6 +57,7 @@ Replacing the matching substring.
 ## Related
 
 * [array-replace](https://github.com/gillstrom/array-replace) - Replace array values with `String.prototype.replace`
+* [value-replace](https://github.com/gillstrom/value-replace) - Replace object values with `String.prototype.replace`
 
 
 ## License
